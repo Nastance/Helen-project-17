@@ -54,6 +54,27 @@
         margin-bottom: 0;
       }
     }
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+      transition: background-color 300ms;
+    }
+
+    &:hover .icon,
+    &:focus .icon {
+      fill: $primary-white-color;
+      transition: fill 300ms;
+    }
+
+    &:hover .dash,
+    &:focus .dash,
+    &:hover .title,
+    &:focus .title,
+    &:hover .description,
+    &:focus .description {
+      color: $primary-white-color;
+      transition: color 300ms;
+    }
   }
 
   .icon {
