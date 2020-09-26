@@ -80,8 +80,8 @@
       transition: fill 300ms;
     }
 
-    &:hover .dash,
-    &:focus .dash,
+    &:hover .dashed,
+    &:focus .dashed,
     &:hover .title,
     &:focus .title,
     &:hover .description,
@@ -122,7 +122,7 @@
     }
   }
 
-  .dash {
+  .dashed {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.65;
